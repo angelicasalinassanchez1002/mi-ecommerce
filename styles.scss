@@ -1,7 +1,7 @@
 // COLOR VARIABLES
 $primaryColor: #333;                   // Color principal (para fondo del header, bordes, etc.)
 $textColor: #999;                      // Color gris claro para el texto general
-$whiteColor: #fff;                     // Blanco puro (fondo del carrito, por ejemplo)
+$whiteColor: #fff9f9;                     // Blanco puro (fondo del carrito, por ejemplo)
 $bannerTextColor: #ffffff;            // Texto blanco para el banner
 $boxShadowColor: rgba(0, 0, 0, 0.30);  // Sombra suave para contenedores como el carrito
 
@@ -305,4 +305,13 @@ header {
         padding: 15px 0;
       }
     }
+    #ofertas {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+#ofertas .producto {
+  margin-top: 10px;
+}
+
 }
